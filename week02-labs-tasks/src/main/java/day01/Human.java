@@ -9,6 +9,14 @@ public class Human {
         this.age =age;
     }
 
+    public void introduction() {
+        System.out.println("Hello my name is " + name);
+    }
+
+    public void addPrefixToName(String prefix) {
+        name = prefix + name;
+    }
+
     public String getName() {
         return name;
     }
